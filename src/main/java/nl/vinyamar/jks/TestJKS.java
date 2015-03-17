@@ -10,7 +10,7 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.cert.Certificate;
 
-public class testJKS {
+public class TestJKS {
 
     public static void main(String[] args) throws Exception {
         FileInputStream is = new FileInputStream(new ClassPathResource("store.jks").getFile());

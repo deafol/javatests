@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" xmlns="http://www.ing.com/lch/alp" ?>
+<AuthorizeLoyaltyPaymentREQ>
+    <AuditTrailInfo>Dummy audit trail</AuditTrailInfo>
+    <!--1 to 2 repetitions:-->
+    <Party>
+        <Id>170144275</Id>
+        <TypeName>unused</TypeName>
+        <PersonName></PersonName>
+    </Party>
+    <Party>
+        <Id>170144275</Id>
+        <TypeName>unused</TypeName>
+        <PersonName></PersonName>
+    </Party>
+    <AgreementFrom>
+        <AgreementType>001</AgreementType>
+        <ExternalAgreementId>NL17INGB0007940231</ExternalAgreementId>
+        <PartyAgreementRole>
+            <Party>
+                <Id>unused</Id>
+            </Party>
+        </PartyAgreementRole>
+    </AgreementFrom>
+    <AgreementFrom>
+        <AgreementType>082</AgreementType>
+        <ExternalAgreementId>LAR7940231</ExternalAgreementId>
+        <PartyAgreementRole>
+            <Party>
+                <Id>unused</Id>
+            </Party>
+        </PartyAgreementRole>
+    </AgreementFrom>
+    <AgreementTo>
+        <AgreementType>unused</AgreementType>
+        <ExternalAgreementId>unused</ExternalAgreementId>
+        <PartyAgreementRole>
+            <Party>
+                <Id>unused</Id>
+            </Party>
+        </PartyAgreementRole>
+    </AgreementTo>
+    <Payment>
+        <Amount>0</Amount>
+        <Currency>EUR</Currency>
+        <Points>0</Points>
+        <OrderId>orderID</OrderId>
+    </Payment>
+    <Security>
+        <signature>Check disabled on TST</signature>
+    </Security>
+</AuthorizeLoyaltyPaymentREQ>
