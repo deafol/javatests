@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" xmlns="http://www.ing.com/lch/alp" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <AuthorizeLoyaltyPaymentREQ>
     <AuditTrailInfo>Dummy audit trail</AuditTrailInfo>
     <!--1 to 2 repetitions:-->
